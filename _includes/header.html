@@ -1,26 +1,15 @@
+{%- comment -%}
+  Include vars:
+  scrolly_nav
+{%- endcomment -%}
 
-<!-- Intro Start -->
-
-<header class="intro">
-  <div class="intro-body">
-    <div class="container">
-      <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <h1 class="brand-heading">&nbsp;</h1>
-            <h1 class="brand-heading">&nbsp;</h1>
-            <span class="intro-text">{{ content }}</span>
-            <h5>&nbsp;</h5>
-            <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
-              {% if site.me-img contains "https://" %}
-                <img class="img-me" src="{{ site.me-img }}" alt="">
-              {% else %}
-                <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
-              {% endif %}
-            </a>
-          </div>
-        </div>
-    </div>
+<!-- Header -->
+<div id="header">
+  <div class="top">
+    {%- include logo.html -%}
+    {%- include nav.html section_items=include.scrolly_nav -%}
   </div>
-</header>
-
-<!-- Intro End -->
+  <div class="bottom">
+    {%- include social_icons.html -%}
+  </div>
+</div>
