@@ -92,25 +92,25 @@
         <h1 class="mb-0"> Vivswan
         <span class="text-primary"> Shitole </h1>
 
-        <div class="subheading mb-5"><!-- · Graduate Researcher · Oregon State University · Machine Learning Engineer · Aitoe Labs · Software Engineer · Texas Instruments · Researcher · IIT Bombay · --> Aspiring AI Engineer <br/>
+        <div class="subheading mb-5"><!-- · Graduate Researcher · Oregon State University · Machine Learning Engineer · Aitoe Labs · Software Engineer · Texas Instruments · Researcher · IIT Bombay · --> AI Researcher <br/>
           <a href="mailto:shitolev@oregonstate.edu">shitolev@oregonstate.edu</a>
         </div>
 
         <!--<p class="lead mb-5">Hi! I am Vivswan. I am currently a Graduate Research Assistant working on Explainable Artificial Intelligence under Dr. Prasad Tadepalli and Dr. Alan Fern at Oregon State University. Before that I took a Computer Vision based surveillance Startup from zero to one, being one of the first five employees at Aitoe Labs. Around the same time I worked on Video Search and Summarization as a reseacher under Dr. Ganesh Ramakrishnan and Dr. Rishabh Iyer at Indian Institute of Technology Bombay. In previous life I worked on Surround View for Advanced Driver Assistant System, SafeTI Library adhering to ASIL-B standard and Bluetooth Low Energy Software Stack as a Software Engineer at Texas Instruments.</p>-->
 
-        <p class="lead mb-5">I am currently a Graduate Research Assistant working on Explainable Artificial Intelligence under Dr. Prasad Tadepalli and Dr. Alan Fern at Oregon State University. I have hands-on research and industry experience on several facets of AI and Machine Learning. My works span across:
+        <p class="lead mb-5">I am currently a Graduate Research Assistant working on Explainable Artificial Intelligence under Dr. Prasad Tadepalli at Oregon State University. I have hands-on research and industry experience on several facets of AI and Machine Learning. My works span across:
           <ul class="body_ul" style="list-style-type:square">
             <li>Computer Vision for Object Tracking and surveillance using Deep Learning</li>
-            <li>Industrial Processes Optimization using Deep Reinforcement Learning</li>
-            <li>Disentangling Visual Concepts from Neural Net generated Saliency Maps </li>
-            <li>Unsupervised Density Estimation using Deep Autoregressive Models for Image Generation</li>
-            <li>Reformulating Trust Region Policy Optimization using Conjugate Gradient Descent</li>
+            <li>Discrete Event Simulation Optimization using Deep Reinforcement Learning</li>
+            <li>Explaining Convolutional Neural Networks via Saliency Maps</li>
+            <li>Unsupervised Density Estimation using Deep Autoregressive Models</li>
+            <!--<li>Reformulating Trust Region Policy Optimization using Conjugate Gradient Descent</li>-->
             <li>Video Summarization using Submodular functions</li>
-            <li>Domain Adaptation in Reinforcement Learning using Abstract Representations</li>
-            <li>Surround View for Automotive Driver Assistant Systems</li>
+            <li>Domain Adaptation in Reinforcement Learning using Beta-VAE</li>
+            <!--<li>Surround View for Automotive Driver Assistant Systems</li>
             <li>Human Action Recognition using Binary Motion Image and Classification</li>
             <li>Safety Diagnostic Library for ASIL-B applications</li>
-            <li>Bluetooth Low Energy software stack</li>
+            <li>Bluetooth Low Energy software stack</li>-->
           </ul>
         </p>
 
@@ -125,6 +125,45 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+            <h3 class="mb-0">Structured Attention Graphs for Understanding Deep Image Classifications</h3>
+
+            <br/><a class="github-button btn" href="https://github.com/viv92/structured-attention-graphs" data-size="large" data-show-count="false" aria-label="cloud-cv/evalai on GitHub">Code</a>
+            <a class="github-button" href="https://github.com/viv92/structured-attention-graphs" data-icon="octicon-star" data-size="large" data-show-count="false" aria-label="Star cloud-cv/evalai on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/viv92/structured-attention-graphs/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="false" aria-label="Fork cloud-cv/evalai on GitHub">Fork</a><br/>
+
+            <!--<div class="subheading mb-3">Intelitec Solutions</div>-->
+            <p class="lead mb-5">Humans can look at different occluded versions of an object and still identify the object. This project shows that even convolutional neural networks can confidently identify the image class from minimal regions of the image. The key finding is that there exist multiple sets of such minimal regions for an image. We present these regions as directed acyclic graphs (termed as SAG for "Structured Attention Graph") that provide insights into the network's classification scheme.</p>
+
+          <figure class="sagfigs">
+            <img class="sagimgs" src="img/peacock_original.png"></img>
+            <figcaption>Original image</figcaption>
+          </figure>
+
+          <figure class="sagfigs">
+            <img class="sagimgs" src="img/peacock_gcam.png"></img>
+            <figcaption>Grad-CAM</figcaption>
+          </figure>
+
+          <figure class="sagfigs">
+            <img class="sagimgs" src="img/peacock_igos.png"></img>
+            <figcaption>I-GOS</figcaption>
+          </figure>
+
+          <figure class="sagfigs">
+            <img class="sagimgs" src="img/peacock_dnf.gif"></img>
+            <figcaption>Ours</figcaption>
+          </figure>
+
+          <figure class="sagfigs2">
+            <img class="sagimgs" src="img/peacock_sag.png"></img>
+            <figcaption>SAG</figcaption>
+          </figure>
+
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
             <h3 class="mb-0">Simulation Optimization using Reinforcement Learning</h3>
 
             <br/><a class="github-button btn" href="https://github.com/viv92/simulopt" data-size="large" data-show-count="false" aria-label="cloud-cv/evalai on GitHub">Code</a>
@@ -132,7 +171,7 @@
             <a class="github-button" href="https://github.com/viv92/simulopt/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="false" aria-label="Fork cloud-cv/evalai on GitHub">Fork</a><br/>
 
             <!--<div class="subheading mb-3">Intelitec Solutions</div>-->
-            <p class="lead mb-5">Optimize any industrial processes by converting it to an approximate MDP and applying reinforcement learning with domain adaptation on a discrete event simulator. This is an ongoing research project exploring various RL methodologies such as Model-Agnostic Meta Learning and Hierarchical Model-based learning with Bayesian Optimization. Implemented in TensorFlow.</p>
+            <p class="lead mb-5">Project on optimizing an industrial processes by converting it to an approximate MDP and applying model-free reinforcement learning algorithms on a discrete event simulator. Implemented in TensorFlow. Published in Winter Simulation Conference 2019.</p>
 
           <figure class="simuloptfigs">
             <img class="simuloptimgs" src="img/pipeline.png"></img>
@@ -230,7 +269,7 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Density Estimation using Deep Autoregressive Models</h3>
+            <h3 class="mb-0">Unsupervised Density Estimation using Deep Autoregressive Models</h3>
             <!--<div class="subheading mb-3">Intelitec Solutions</div>-->
 
             <br/><a class="github-button btn" href="https://github.com/viv92/Deep-Autoregressive-Model" data-size="large" data-show-count="false" aria-label="cloud-cv/evalai on GitHub">Code</a>
@@ -254,10 +293,10 @@
         </div>
 
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <!--<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">Domain Adaptation in Reinforcement Learning using Abstract Representations</h3>
-            <!--<div class="subheading mb-3">Intelitec Solutions</div>-->
+            <div class="subheading mb-3">Intelitec Solutions</div>
 
             <br/><a class="github-button btn" href="https://github.com/viv92/deer" data-size="large" data-show-count="false" aria-label="cloud-cv/evalai on GitHub">Code</a>
             <a class="github-button" href="https://github.com/viv92/deer" data-icon="octicon-star" data-size="large" data-show-count="false" aria-label="Star cloud-cv/evalai on GitHub">Star</a>
@@ -277,7 +316,7 @@
 
 
           </div>
-        </div>
+        </div>-->
 
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -323,15 +362,15 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Human Activity Recognition using Binary Motion Image and Deep Learning</h3>
+            <h3 class="mb-0">Structured Attention Graphs for Understanding Deep Image Classifications</h3>
             <!--<div class="subheading mb-3">Intelitec Solutions</div>-->
             <p class="lead mb-5">
-              Tushar Dobhal, <b>Vivswan Shitole</b>, Gabriel Thomas, Girisha Navada
+              <b>Vivswan Shitole</b>, Li Fuxin, Minsuk Kahng, Prasad Tadepalli, Alan Fern
               <br/>
-              <i>Procedia Computer Science, Elsevier 2015</i>
+              <i><a href="https://arxiv.org/pdf/2011.06733" target="_blank">arxiv:2011.06733</a></i>
             </p>
 
-            <a href="http://www.sciencedirect.com/science/article/pii/S1877050915021614" target="_blank"><img class="pubimgs" src="img/pub1.png"></img></a>
+            <a href="https://arxiv.org/pdf/2011.06733" target="_blank"><img class="pubimgs" src="img/pub_sag.jpg"></img></a>
 
           </div>
 
@@ -347,11 +386,28 @@
               <i>Winter Simulation Conference 2019</i>
             </p>
 
-            <a href="https://github.com/viv92/simulopt/blob/master/publication.pdf" target="_blank"><img class="pubimgs" src="img/pub2.jpg"></img></a>
+            <a href="https://ieeexplore.ieee.org/document/9004935" target="_blank"><img class="pubimgs" src="img/pub2.jpg"></img></a>
 
           </div>
 
         </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Human Activity Recognition using Binary Motion Image and Deep Learning</h3>
+            <!--<div class="subheading mb-3">Intelitec Solutions</div>-->
+            <p class="lead mb-5">
+              Tushar Dobhal, <b>Vivswan Shitole</b>, Gabriel Thomas, Girisha Navada
+              <br/>
+              <i>Procedia Computer Science, Elsevier 2015</i>
+            </p>
+
+            <a href="http://www.sciencedirect.com/science/article/pii/S1877050915021614" target="_blank"><img class="pubimgs" src="img/pub1.png"></img></a>
+
+          </div>
+
+        </div>
+
 
       </div>
     </section>
@@ -382,7 +438,7 @@
 
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">June 2017 - April 2018</span><br/>
+            <span class="text-primary">July 2017 - April 2018</span><br/>
             <img class="company_logo" src="img/aitoe.png"></img>
           </div>
         </div>
@@ -394,7 +450,7 @@
             <p class="lead mb-5">◾️ Created a ”classroom monitor” used to mark attendance and detect anomalous events in classrooms through surveillance cameras deployed in some rural schools of Mumbai with the help of NCETIS. This involved training custom Mobilenet-SSD and Darknet-Yolo models for face and apparel recognition using Caffe and building a software around it.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">June 2017 - Feb 2018</span><br/>
+            <span class="text-primary">May 2017 - July 2017</span><br/>
             <img class="company_logo" src="img/iitb.png"></img>
           </div>
         </div>
@@ -407,7 +463,7 @@
             <p class="lead mb-5">◾️ Developed API for GAP, GATT and Security Manager layers of Bluetooth Low Energy software stack for TI’s ultra low power microcontrollers</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">July 2015 - Nov 2016</span><br/>
+            <span class="text-primary">August 2015 - October 2016</span><br/>
             <img class="company_logo" src="img/ti.png"></img>
           </div>
         </div>
@@ -449,7 +505,6 @@
               <li>CS 533. Intelligent Agents</li>
               <li>CS 519. Algorithms Design and Analysis</li>
               <li>ROB 567. Human-Robot Interaction</li>
-              <li>CS538. Natural Language Processing</li>
               <li>CS539. Embodied AI</li>
             </ul>
             </p>

@@ -164,6 +164,36 @@
   width: 100%;
 }
 
+.sagfigs {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24%;
+}
+
+.sagfigs figcaption {
+  text-align: center;
+  margin-top: 8px;
+  color: black;
+}
+
+.sagimgs {
+  width: 100%;
+}
+
+.sagfigs2 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 97%;
+}
+
+.sagfigs2 figcaption {
+  text-align: center;
+  margin-top: 8px;
+  color: black;
+}
+
 .xnnfigs {
   display: inline-block;
   margin-left: auto;
