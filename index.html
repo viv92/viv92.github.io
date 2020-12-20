@@ -109,7 +109,7 @@
             <li>Unsupervised Density Estimation using Deep Autoregressive Models</li>
             <!--<li>Reformulating Trust Region Policy Optimization using Conjugate Gradient Descent</li>-->
             <li>Video Summarization using Submodular functions</li>
-            <li>Domain Adaptation in Reinforcement Learning using Beta-VAE</li>
+            <li>Domain Adaptation in Reinforcement Learning</li>
             <!--<li>Surround View for Automotive Driver Assistant Systems</li>
             <li>Human Action Recognition using Binary Motion Image and Classification</li>
             <li>Safety Diagnostic Library for ASIL-B applications</li>
@@ -189,35 +189,33 @@
           </div>
         </div>
 
-
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">XNN: Explainable Neural Network to Disentangle Visual Concepts</h3>
+            <h3 class="mb-0">Exploring Priors of Trained RL Agent to Gauge Policy Robustness</h3>
+            <!-- <div class="subheading mb-3">Intelitec Solutions</div> -->
 
-            <br/><a class="github-button btn" href="https://github.com/viv92/xAI-VisualConcepts" data-size="large" data-show-count="false" aria-label="cloud-cv/evalai on GitHub">Code</a>
-            <a class="github-button" href="https://github.com/viv92/xAI-VisualConcepts" data-icon="octicon-star" data-size="large" data-show-count="false" aria-label="Star cloud-cv/evalai on GitHub">Star</a>
-            <a class="github-button" href="https://github.com/viv92/xAI-VisualConcepts/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="false" aria-label="Fork cloud-cv/evalai on GitHub">Fork</a><br/>
+            <br/><a class="github-button btn" href="https://github.com/viv92/vizdoom-adaptation" data-size="large" data-show-count="false" aria-label="cloud-cv/evalai on GitHub">Code</a>
+            <a class="github-button" href="https://github.com/viv92/vizdoom-adaptation" data-icon="octicon-star" data-size="large" data-show-count="false" aria-label="Star cloud-cv/evalai on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/viv92/vizdoom-adaptation/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="false" aria-label="Fork cloud-cv/evalai on GitHub">Fork</a><br/>
 
-            <!--<div class="subheading mb-3">Intelitec Solutions</div>-->
-            <p class="lead mb-5">XNN is a novel neural network architecture designed to yeild saliency maps that can be disentangled to represent visual concepts. Hence the generated saliency maps can be used to attribute explanations to the Neural Net's classifications. The XNN architecture uses stacked Sparse Reconstruction Autoencoders (SRAE) with a novel "concept loss", a "pull away term" and Integrated-Gradient based visualization to generate explainable saliency maps. Implemented in PyTorch.</p>
+            <p class="lead mb-5">This project studies the robustness and adaptability of pretrained policy of an embodied RL agent (Arnold) on modified versions of the training environment (VizDoom). These modifications include changes in agent’s state space and action space such as changes in agent’s speed and height, variations in environment lighting, ablations of objects in the environment and swapping of environment textures. Implemented in PyTorch.</p>
 
-          <figure class="xnnfigs">
-            <img class="xnnimgs" src="img/xnn1.png"></img>
-            <figcaption>Sample Explanations Obtained</figcaption>
-          </figure>
+            <figure class="simuloptfigs">
+              <img class="crarimgs" src="img/ceil_change_gif.gif"></img>
+              <figcaption>Environments with different ceiling textures</figcaption>
+            </figure>
 
-          <figure class="xnnfigs">
-            <img class="xnnimgs" src="img/xnn2.png"></img>
-            <figcaption>The Explanation Module</figcaption>
-          </figure>
+            <figure class="simuloptfigs">
+              <img class="crarimgs" src="img/ceil_change_plot.png"></img>
+              <figcaption>Agent's performance on the modified environments</figcaption>
+            </figure>
 
-          <figure class="xnnfigs">
-            <img class="xnnimgs" src="img/xnn3.png"></img>
-            <figcaption>SRAE implementing the Explanation Module</figcaption>
-          </figure>
 
           </div>
         </div>
+
+
+
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -295,31 +293,35 @@
           </div>
         </div>
 
-
-        <!--<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Domain Adaptation in Reinforcement Learning using Abstract Representations</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
+            <h3 class="mb-0">XNN: Explainable Neural Network to Disentangle Visual Concepts</h3>
 
-            <br/><a class="github-button btn" href="https://github.com/viv92/deer" data-size="large" data-show-count="false" aria-label="cloud-cv/evalai on GitHub">Code</a>
-            <a class="github-button" href="https://github.com/viv92/deer" data-icon="octicon-star" data-size="large" data-show-count="false" aria-label="Star cloud-cv/evalai on GitHub">Star</a>
-            <a class="github-button" href="https://github.com/viv92/deer/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="false" aria-label="Fork cloud-cv/evalai on GitHub">Fork</a><br/>
+            <br/><a class="github-button btn" href="https://github.com/viv92/xAI-VisualConcepts" data-size="large" data-show-count="false" aria-label="cloud-cv/evalai on GitHub">Code</a>
+            <a class="github-button" href="https://github.com/viv92/xAI-VisualConcepts" data-icon="octicon-star" data-size="large" data-show-count="false" aria-label="Star cloud-cv/evalai on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/viv92/xAI-VisualConcepts/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="false" aria-label="Fork cloud-cv/evalai on GitHub">Fork</a><br/>
 
-            <p class="lead mb-5">This project extends the work on Combined Reinforcement Learning via Abstract Representations [1] to include domain adaptation across different environments. This is achieved by modifying the architecture of the learning problem in order to enable learning of  common abstractions over multiple environments. Implemented in PyTorch.</p>
+            <!--<div class="subheading mb-3">Intelitec Solutions</div>-->
+            <p class="lead mb-5">XNN is a novel neural network architecture designed to yeild saliency maps that can be disentangled to represent visual concepts. Hence the generated saliency maps can be used to attribute explanations to the Neural Net's classifications. The XNN architecture uses stacked Sparse Reconstruction Autoencoders (SRAE) with a novel "concept loss", a "pull away term" and Integrated-Gradient based visualization to generate explainable saliency maps. Implemented in PyTorch.</p>
 
-            <figure class="simuloptfigs">
-              <img class="crarimgs" src="img/crar1.png"></img>
-              <figcaption>Architecture of the learning problem</figcaption>
-            </figure>
+          <figure class="xnnfigs">
+            <img class="xnnimgs" src="img/xnn1.png"></img>
+            <figcaption>Sample Explanations Obtained</figcaption>
+          </figure>
 
-            <figure class="simuloptfigs">
-              <img class="crarimgs" src="img/crar2.png"></img>
-              <figcaption>Abstract representation learnt for Catcher environment</figcaption>
-            </figure>
+          <figure class="xnnfigs">
+            <img class="xnnimgs" src="img/xnn2.png"></img>
+            <figcaption>The Explanation Module</figcaption>
+          </figure>
 
+          <figure class="xnnfigs">
+            <img class="xnnimgs" src="img/xnn3.png"></img>
+            <figcaption>SRAE implementing the Explanation Module</figcaption>
+          </figure>
 
           </div>
-        </div>-->
+        </div>
+
 
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
